@@ -1,0 +1,14 @@
+body {
+  background: #3b3b3b;
+  color: #fff;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont;
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
