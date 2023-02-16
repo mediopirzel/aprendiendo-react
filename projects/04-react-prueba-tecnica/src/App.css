@@ -1,0 +1,33 @@
+:root {
+  --global-gap: 20px;
+}
+body {
+  display: flex;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  justify-content: center;
+  font-family: Helvetica, Arial, sans-serif;
+  background: rgba(0, 0, 0, 0.08);
+  color: #3b3b3b;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  padding: var(--global-gap);
+  background: #fff;
+  border-radius: 12px;
+  gap: var(--global-gap);
+}
+
+main > * {
+  margin-top: 0;
+  margin-bottom: 0;
+}
